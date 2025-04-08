@@ -37,8 +37,6 @@ Antes de iniciar o projeto, certifique-se de que você tem instalado na sua máq
 - 💻 Navegador moderno – como Google Chrome ou Firefox
 
 
-## 📦 Estrutura de Pastas
-
 ## 📁 Estrutura de Pastas
 
 | Caminho                     | Descrição                                                |
