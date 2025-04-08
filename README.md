@@ -26,6 +26,7 @@ Aprender na prática como:
 - [Axios](https://axios-http.com/)
 - CSS3
 - [Jobicy Remote Jobs API](https://jobicy.com/api)
+  
 
 ✅ Pré-requisitos
 Antes de iniciar o projeto, certifique-se de que você tem instalado na sua máquina:
