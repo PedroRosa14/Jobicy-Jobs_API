@@ -39,22 +39,22 @@ Antes de iniciar o projeto, certifique-se de que você tem instalado na sua máq
 
 ## 📦 Estrutura de Pastas
 
-📦 src
-├── 📂 components
-│   └── 📂 JobList
-│       ├── 📄 JobList.js        → Componente principal que exibe as vagas
-│       └── 📄 joblist.css       → Estilos específicos do componente JobList
-│
-├── 📂 services
-│   └── 📄 api.js                → Função que consome a API de vagas (Jobicy)
-│
-├── 📄 App.js                   → Estrutura principal da aplicação
-├── 📄 App.css                  → Estilo global do app
-├── 📄 index.js                 → Ponto de entrada da aplicação
-├── 📄 index.css                → Estilos globais adicionais
-├── 📄 logo.svg                 → Logo padrão do React
-├── 📄 reportWebVitals.js       → Métricas de performance
-├── 📄 setupTests.js            → Configuração para testes
+## 📁 Estrutura de Pastas
+
+| Caminho                     | Descrição                                                |
+|----------------------------|----------------------------------------------------------|
+| `src/components/JobList/`  | Componentes relacionados à listagem de vagas             |
+| ├── `JobList.js`           | Componente principal que exibe as vagas                  |
+| └── `joblist.css`          | Estilos específicos do componente JobList                |
+| `src/services/api.js`      | Função que consome a API de vagas (Jobicy)               |
+| `src/App.js`               | Estrutura principal da aplicação                         |
+| `src/App.css`              | Estilo global do app                                     |
+| `src/index.js`             | Ponto de entrada da aplicação                            |
+| `src/index.css`            | Estilos globais adicionais                               |
+| `src/logo.svg`             | Logo padrão do React                                     |
+| `src/reportWebVitals.js`   | Métricas de performance                                  |
+| `src/setupTests.js`        | Configuração para testes                                 |
+
 
 
 ## 🛠️ Instalação e Uso
