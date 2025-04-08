@@ -1,0 +1,73 @@
+/* Estilo básico para o container da página */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Título principal da página */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Estilo para a lista de vagas */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os cards na tela */
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Estilo para cada card de vaga */
+li {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Animação de hover */
+}
+
+/* Estilo para o título de cada vaga */
+h2 {
+  font-size: 20px;
+  color: #444;
+  margin: 0 0 10px;
+}
+
+/* Estilo para a descrição de cada vaga */
+p {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/* Estilo para a imagem da vaga */
+img {
+  width: 100%; /* A imagem vai ocupar toda a largura do card */
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Estilo do link para mais detalhes */
+a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline; /* Efeito de sublinhado ao passar o mouse */
+}
+
+/* Efeito de hover para o card */
+li:hover {
+  transform: translateY(-5px); /* Eleva o card para dar o efeito de hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Aumenta a sombra ao passar o mouse */
+}

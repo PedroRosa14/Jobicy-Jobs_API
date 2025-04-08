@@ -1,0 +1,93 @@
+/* src/styles/JobList.css */
+
+/* Layout básico */
+.job-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilo para o título das vagas */
+  .job-list h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilo para o parágrafo */
+  .job-list p {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* Estilo para a mensagem de erro ou de carregamento */
+  .job-list p.error {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .job-list p.loading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Estilo do card de cada vaga */
+  .job-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .job-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para o título da vaga */
+  .job-card h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  /* Estilo para o nome da empresa */
+  .job-card p.company-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Estilo para a região geográfica */
+  .job-card p.geo {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Imagem do logo da empresa */
+  .job-card img {
+    max-width: 150px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  /* Link de visualização de mais detalhes */
+  .job-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  .job-card a:hover {
+    color: #0056b3;
+  }
+  
