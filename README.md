@@ -27,19 +27,14 @@ Aprender na prática como:
 - CSS3
 - [Jobicy Remote Jobs API](https://jobicy.com/api)
   
+## ✅ Pré-requisitos
 
-✅ Pré-requisitos
 Antes de iniciar o projeto, certifique-se de que você tem instalado na sua máquina:
 
-📦 Node.js – versão 18.x ou superior
-(Recomendado instalar a versão LTS)
-
-🧰 npm – geralmente vem junto com o Node.js
-(ou Yarn se preferir)
-
-🔧 Git – para clonar o repositório do projeto
-
-💻 Navegador moderno – como Google Chrome ou Firefox
+- 📦 **Node.js** – versão 18.x ou superior *(recomendada: LTS)*
+- 🧰 **npm** – geralmente vem junto com o Node.js *(ou Yarn, se preferir)*
+- 🔧 **Git** – para clonar o repositório do projeto
+- 💻 Navegador moderno – como Google Chrome ou Firefox
 
 
 ## 📦 Estrutura de Pastas
