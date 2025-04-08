@@ -64,7 +64,7 @@ Antes de iniciar o projeto, certifique-se de que você tem instalado na sua máq
 ## 🛠️ Instalação e Uso
 
 # 1️⃣ Clone o repositório
-git clone https://github.com/seu-usuario/Jobicy-Jobs-Api.git
+gh repo clone PedroRosa14/Jobicy-Jobs_API
 
 # 2️⃣ Acesse a pasta do projeto
 cd Jobicy-Jobs-Api
